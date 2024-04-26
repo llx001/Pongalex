@@ -106,14 +106,6 @@ private:
 };
 int main()
 {
-
-    Entity defaultEntity();
-    Entity nameEntity("Atka");
-    Entity nameposEntity("Line", Vector2{4,2});
-    Entity nameposrotEntity("cross", Vector2{1,3.4f}, 10.0f);
-
-    return 0;
-
     float totalTime = 0.0f;
     const int screenWidth = 1280;
     const int screenHeight = 720;
